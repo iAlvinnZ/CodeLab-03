@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Case Study 2</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <table style="width: 30%">
+      <form>
+        <tr>
+          <th colspan="2"><b>Employee Details</b></th>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: left">
+            01. Personal Information -------------
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="fname" style="font-size: 12pt; text-align: left"
+              >Employee Name</label
+            ><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+              value=""
+              style="font-size: 11pt"
+              required
+            />
+          </td>
+
+          <td>
+            <label for="lname" style="font-size: 12pt; text-align: left"
+              >Last Name</label
+            ><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Last Name"
+              value=""
+              style="font-size: 11pt"
+            />
+          </td>
+        </tr>
+
+          <tr>
+            <td>
+                <label for="date" style="font-size: 12pt; text-align: left"
+                  >Starting Date</label><br/>
+                  <input type="date" id="date" name="date" required>
+            </td>
+            <td>
+                <label for="bdate" style="font-size: 12pt; text-align: left"
+                  >Birth Date</label><br/>
+                  <input type="date" id="bdate" name="bdate" required>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="type" style="font-size: 12pt; text-align: left">Employee Type</label><br>
+                <select id="type" name="type" required>
+                    <option value="fulltime">Full Time</option>
+                    <option value="parttime">Part Time</option>
+                    <option value="contract">Contract</option>
+                </select>
+            </td>
+
+            <td>
+                <label for="gender" style="font-size: 12pt; text-align: left">Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="position" style="font-size: 12pt; text-align: left">Position</label><br/>
+                <input type="text" id="position" name="position" placeholder="Position" value="" style="font-size: 11pt"></td>
+            </td>
+            <td></td>
+          </tr>
+
+          <tr>
+          <td colspan="2" style="text-align: left">02. Location ---------------</td>
+          </tr>
+
+          <tr>
+            <td>
+            <label for="city" style="font-size: 12pt; text-align: left"
+              >City</label
+            ><br />
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="City"
+              value=""
+              style="font-size: 11pt"
+              required
+            />
+          </td>
+
+          <td>
+            <label for="state" style="font-size: 12pt; text-align: left"
+              >State</label
+            ><br />
+            <input
+              type="text"
+              id="state"
+              name="state"
+              placeholder="State"
+              value=""
+              style="font-size: 11pt"
+            />
+          </td>
+          </tr>
+
+          <tr>
+            <td>
+            <label for="zip" style="font-size: 12pt; text-align: left"
+              >Zip</label
+            ><br />
+            <input
+              type="text"
+              id="zip"
+              name="zip"
+              placeholder="ZIP"
+              value=""
+              style="font-size: 11pt"
+              required
+            />
+          </td>
+
+          <td>
+            <label for="address" style="font-size: 12pt; text-align: left"
+              >Address</label
+            ><br />
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Address"
+              value=""
+              style="font-size: 11pt"
+            />
+          </td>
+          </tr>
+
+          <tr>
+            <td colspan="2" style="text-align: left">03. Contact Information ---------------</td>
+          </tr>
+
+          <tr>
+            <td>
+            <label for="phone" style="font-size: 12pt; text-align: left"
+              >Phone</label
+            ><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Phone"
+              value=""
+              style="font-size: 11pt"
+              required
+            />
+          </td>
+
+          <td>
+            <label for="email" style="font-size: 12pt; text-align: left"
+              >Email</label
+            ><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              value=""
+              style="font-size: 11pt"
+              required
+            />
+          </td>
+          </tr>
+
+          <tr>
+            <td colspan="2"><input type="submit" value="Register"/></td>
+          </tr>
+      </form>
+    </table>
+  </body>
+</html>

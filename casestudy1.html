@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <title>User Registration</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <table style="width: 30%">
+      <form action="/action_page.php">
+        <tr>
+          <th colspan="2"><b>Create Account</b></th>
+        </tr>
+
+        <tr>
+          <td><input type="text" placeholder="First Name" required /></td>
+          <td><input type="text" placeholder="Last Name" required /></td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: left">
+            <select id="country" placeholder="Country" required>
+              <option value="indonesia">Indonesia</option>
+              <option value="japan">Japan</option>
+              <option value="korea">Korea</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="email" placeholder="Email Address" required /></td>
+          <td><input type="tel" placeholder="Phone Number" required /></td>
+        </tr>
+
+        <tr>
+          <td><input type="password" placeholder="Password" required /></td>
+          <td>
+            <input type="password" placeholder="Confirm Password" required />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: left">
+            <input type="checkbox" id="terms" required />
+            <label for="terms">Terms and Condition</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <input type="submit" value="Create" />
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
